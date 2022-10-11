@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&family=Shrikhand&display=swap');
 
 
 *{
@@ -78,9 +78,29 @@ a{
 }
 
 
+#avatar{
+    width: 20vh;
+    border: 5px solid #E2FAC3;
+    border-radius: 50%;
+}
+
+.introduction{
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    border: 3px solid #F7C3FA;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Shrikhand", Courier, monospace;
+}
+
 @media screen and ( max-width: 800px){
    .hamburger{
     display: block;
+    text-align: justify;
+    margin-left: 40px;
    }
 
    .nav-menu{
@@ -183,6 +203,9 @@ a{
         grid-column: 5/8;
         grid-row: 5/6;
     }
+
+
+
 
 
 }
