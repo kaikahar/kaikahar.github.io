@@ -101,7 +101,7 @@ a{
     width: 300px;
 }
 
-.exppictures{
+.exppictures, .finishedprojects{
     margin-left: 480px;
     margin-right: 480px;
     margin-top: 100px;
@@ -135,15 +135,7 @@ table{
     text-align: center;
 }
 
-.finishedprojects{
-    border: 3px solid #F7C3FA;
-    margin-top: 50px;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    font-family: "Shrikhand", Courier, monospace;
-}
+
 
 span{
     animation: blinker 1s linear infinite;
