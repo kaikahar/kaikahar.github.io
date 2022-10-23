@@ -2,16 +2,52 @@
 
 
 *{
-    background-color: #000F80;
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+   
+    
     list-style: none;
     box-sizing: border-box;
+    margin:0;
+	padding:0;
+	/* *********************************************** */
+
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
 }
 
+
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+/* *********************************************** */
+
 header{
-    background-color: #000F80;
     font-family: 'Pirata One', Courier, monospace;
 }
 
@@ -49,10 +85,6 @@ a{
     transition: .7s ease;
 }
 
-.nav-link:hover{
-    background-color: #F7C3FA;
-    
-}
 
 .hamburger{
     display: none;
@@ -65,7 +97,6 @@ a{
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background-color: white;
 }
 
 .profile-images{
@@ -137,15 +168,6 @@ table{
 
 
 
-span{
-    animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker{
-    50%{
-        opacity: 0;
-    }
-}
 
 @media screen and ( max-width: 800px){
    .hamburger{
