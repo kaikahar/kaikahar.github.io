@@ -166,6 +166,10 @@ table{
     text-align: center;
 }
 
+#projectlink:hover{
+    color: yellow;
+    text-decoration: underline;
+}
 
 
 

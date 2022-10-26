@@ -1,6 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const navmenu = document.querySelector(".nav-menu");
-var messageArray = ["Nothing to show yet, dank projects coming soon..."];
+var messageArray = ["New projects coming soon..."];
 var textPosition = 0;
 var speed = 100;
 
